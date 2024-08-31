@@ -3,7 +3,7 @@
 ## Development Assignment
 
 ### Level 1
-I decided to use Groq's `llama3-70b-8192` because I heard that it was more accurate out of the free APIs available. I made a virtual environment, after which I installed `groq` and `python-dotenv`. I tested making an API call to the LLMusing a hardcoded prompt, following the [GroqCloud documentation](https://console.groq.com/docs/text-chat). The code for this is in `Level1Test.py`, under the `Development-Assignment` directory.
+I decided to use Groq's `llama3-70b-8192` because I heard that it was more accurate out of the free APIs available. I made a virtual environment, after which I installed `groq` and `python-dotenv`. I tested making an API call to the LLM using a hardcoded prompt, following the [GroqCloud documentation](https://console.groq.com/docs/text-chat). The code for this is in `Level1Test.py`, under the `Development-Assignment` directory.
 
 Once the API call part was working, I wrote code for the final program . This program (as required) takes input from a text file and outputs a JSON array of objects. The output.json file that the program (`Level1Final.py`) outputted is present in the same directory along with the `input.txt` file.
 
